@@ -1,0 +1,27 @@
+{
+  "name": "clinton-khoza-portfolio",
+  "version": "1.0.0",
+  "description": "Clinton Khoza's Portfolio Website",
+  "main": "index.html",
+  "scripts": {
+    "lint": "eslint . --ext .html,.js,.css --fix",
+    "lint:check": "eslint . --ext .html,.js,.css",
+    "build": "echo 'Build completed - static site ready for deployment'",
+    "deploy": "echo 'Deployment handled by GitHub Actions'"
+  },
+  "keywords": [
+    "portfolio",
+    "website",
+    "clinton-khoza",
+    "developer"
+  ],
+  "author": "Clinton Khoza",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-plugin-html": "^7.1.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
